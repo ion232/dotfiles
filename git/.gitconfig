@@ -1,0 +1,39 @@
+[user]
+    name = Arran Ireland
+    email = a.ireland.git@proton.me
+
+[core]
+    editor = vim
+    whitespace = fix,-indent-with-non-tab,trailing-space
+    excludesfile = ~/.gitignore_global
+
+[color]
+    ui = auto
+
+[alias]
+    a = add
+    b = branch
+    c = commit
+    co = checkout
+    l = log --graph
+    p = push
+    m = merge
+    s = status
+
+[push]
+    default = simple
+
+[pull]
+    rebase = false
+
+[merge]
+    tool = vim
+
+[diff]
+    tool = vim
+
+[commit]
+    template = ~/.gitmessage
+
+[init]
+    defaultBranch = main
